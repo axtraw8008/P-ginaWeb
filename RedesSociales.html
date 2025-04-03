@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Redes Sociales</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="ass.png" />
+  <style>
+    body {
+        background-image: url('xd.jpeg'); 
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        opacity: 1; 
+      justify-content: center; 
+      align-items: center; 
+      position: relative; 
+      min-height: 100vh; 
+    }
+    h1 {
+      color: rgb(0, 0, 0);
+      text-align: center;
+      z-index: 1;
+    }
+    .gif {
+      position: absolute; 
+      top: 50%; 
+      transform: translateY(-50%); 
+      max-width: 900px; 
+      height: auto; 
+    }
+    .left {
+      left: 10px; 
+    }
+    .right {
+      right: 10px; 
+      transform: translateY(-50%) scaleX(-1); 
+    }
+    #whatsappNumber {
+      display: none;
+      color: rgb(255, 255, 255);
+      font-size: 24px;
+      margin-top: 20px;
+    }
+  </style>
+  <script>
+    function showNumber() {
+      document.getElementById('whatsappNumber').style.display = 'block';
+    }
+  </script>
+</head>
+
+<body>
+
+  <img src="background5.gif" alt="GIF" class="gif left" />
+  <img src="background5.gif" alt="GIF" class="gif right" />
+
+  <h1>
+    <center><b><img src="cat4.jpeg"></b></center>
+    <b><a href="https://www.instagram.com/axtraw_8008/" target=>Instagram</a></b>
+    <br>
+    <b><a href="https://www.wattpad.com/user/ElStraw5337" target=>Wattpad</a></b>
+    <br>
+    <b><a href="https://steamcommunity.com/profiles/76561199070208628/" target=>Steam</a></b>
+    <br>
+    <b><button onclick="showNumber()">Whatsapp</button></b>
+    <br>
+    <b><a href="SobreMi.html" target=><button>Regresar</button></a></b>
+    <div id="whatsappNumber">Número: +52 2282859882</div>
+  </h1>
+</body>
+</html>
